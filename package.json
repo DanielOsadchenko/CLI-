@@ -1,0 +1,25 @@
+{
+  "name": "cli-",
+  "version": "1.0.0",
+  "description": "sli homework 1 node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "start:dev": "nodemon ./index.js localhost 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielOsadchenko/CLI-.git"
+  },
+  "author": "Danylo Osadchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielOsadchenko/CLI-/issues"
+  },
+  "homepage": "https://github.com/DanielOsadchenko/CLI-#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "yargs": "^17.6.2"
+  }
+}
